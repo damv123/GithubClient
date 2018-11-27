@@ -1,0 +1,209 @@
+
+@keyframes slidein {
+0% {
+margin-top: 150%;
+}
+
+60% {
+margin-top: -5%;
+}
+
+100% {
+margin-top: 0%;
+}
+}
+
+
+
+img{
+	width: auto;
+	height:auto;
+
+}
+
+h1{
+   font-family: "Dancing Script OT";
+   color: black;
+   font-size: 10px;
+}
+
+h4{
+    font-family: "Dancing Script OT";
+    color: black;
+
+    font-size: 10px;
+
+}
+
+
+h3{
+	font-family: "Dancing Script OT";
+	color: black;
+	font-size: 10px;
+
+}
+
+p{
+	color:white;
+	font-family: "Dancing Script OT";
+	font-size: 45px;
+}
+
+
+#Menu2{
+    width: auto;
+    border: 10px solid white;
+    padding: auto;
+    margin: auto;
+}
+
+#Menu{
+	float: right;
+}
+#division1{
+	background-color: #5b7989;
+}
+
+button{
+	font-family: "Dancing Script OT";
+	border-style: solid;
+	margin: 10px;
+	background-color:mediumseagreen;
+}
+
+body{
+	 background-color: black;
+    animation-duration: 1s;
+     animation-name: slidein;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+#imagen1{
+   position: relative;
+    border: 5px solid white;
+	display: flex;
+    height: auto;
+    margin-left: 20%;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10px;
+    transition: 2s; 
+  
+    
+}
+    #imagen1:hover{
+    
+    transform: rotate(10deg);
+    
+    }
+    
+
+
+#imagen2{
+    border: 5px solid white;
+	border-radius: 10px;
+    transition: 2s;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    
+    
+	
+}
+    #imagen3{
+        border-radius: 10px;
+        transition: 2s;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border: 5px solid white;
+   
+    }
+    
+    
+    #imagen3:hover{
+    transform: translate(5px, 20px);
+    
+    }
+    
+#imagen2:hover{
+	transform: rotate(10deg);
+	
+}
+    
+@media only screen and (max-width: 1024px){
+    
+        
+    #imagen1{
+            position: relative;
+            margin-right: auto;
+            margin-left: auto;
+            height: auto;
+            width: 75%;
+            flex-direction: column;
+            
+            
+        }
+        
+        #imagen2{
+            display: flex;
+           height: auto;
+           width: 75%;
+           flex-direction:column;
+           
+            
+        }
+        
+        #imagen3{
+            height:auto
+            width:75%;
+            flex-direction: column-reverse;
+           
+        }
+    
+    .imagen1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+        
+        
+    }
+    
+    
+    @media only screen and (max-width: 768px){
+        
+        #imagen1{
+            margin-right: auto;
+            margin-left: auto;
+            height: auto;
+            width: 75%;
+            flex-direction: column-reverse;
+          
+        }
+        
+        #imagen2{
+           height: auto;
+           width: 50%;
+           flex-direction: column-reverse;
+           
+            
+        }
+        
+        #imagen3{
+            height:auto
+            width:55%;
+            flex-direction: column-reverse;
+            
+        }
+        
+        
+    }
+            
